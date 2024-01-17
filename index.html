@@ -7,11 +7,15 @@
   <title>Bootstrap</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/b5c6f6dcdc.js" crossorigin="anonymous"></script>
   <style>
+
     @import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
 
-
+    *{
+      font-family: 'Open Sans', sans-serif;
+    }
 
     .navbar img {
       position: absolute;
@@ -24,6 +28,10 @@
         position: static;
         height: 50px;
         width: auto;
+      }
+
+      .intro {
+        width: auto !important;
       }
     }
 
@@ -43,19 +51,33 @@
 
     }
 
+    .intro{
+      width: 50%;
+    }
 
     .intro-body {
       text-align: justify;
-      font-family: 'Open Sans', sans-serif;
       color: grey;;
     }
 
     .intro-title{
-      font-family: 'Open Sans', sans-serif;
       letter-spacing: 0.2rem;
     }
 
+    .card {
+      border: none;
+    }
+
+    .card-text{
+      color: gray;
+    }
+
+    footer a{
+      text-decoration: none;
+    }
+
   </style>
+
 </head>
 
 <body>
@@ -140,10 +162,10 @@
   </section>
 
   <section>
-    <div class="container-fluid intro d-flex flex-column align-items-center p-5">
-      <h1 class="intro-title text-center fs-3 w-50">Where Elegance Meets History: Crafting Timeless Narratives Through
+    <div class="container-fluid intro d-flex flex-column align-items-center p-5 ">
+      <h1 class="intro-title text-center fs-3">Where Elegance Meets History: Crafting Timeless Narratives Through
         Antique Treasures</h1>
-      <p class="intro-body mt-3 w-50">At Antique Story, our passion lies in the art of
+      <p class="intro-body mt-3">At Antique Story, our passion lies in the art of
         storytelling through the lens of timeless artifacts. Each piece in our collection holds a unique narrative, a
         glimpse into a bygone era waiting to be rediscovered. From exquisite home décor to handpicked collectibles, we
         take pride in curating the most profound stories from the past.
@@ -156,11 +178,166 @@
 
   </section>
 
+  <section>
+    <div class="card mb-3" >
+      <div class="row g-0">
+        <div class="col-md-6">
+          <img src="img_4.webp" class="img-fluid rounded-start" alt="img 4">
+        </div>
+        <div class="col-md-6 d-flex align-items-center">
+          <div class="card-body">
+            <h5 class="card-title">EMBRACING OUR PAST, SHAPING OUR TOMORROW</h5>
+            <p class="card-text mt-3">At Antique Story, we cherish India's timeless legacy, preserving artifacts that echo centuries of artistry. Our mission is a bridge between past and future, as we unveil treasures untold. Each piece carries the weight of history, a storyteller of bygone eras. Join us on this journey through time, where the spirit of India lives in every curated artifact. Antique Story: Conserving the past, inspiring the future.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card mt-5 mb-3" >
+      <div class="row g-0">
+        <div class="col-md-6 d-flex align-items-center">
+          <div class="card-body">
+            <h5 class="card-title">THE ESSENCE OF ART LIES IN ITS HEART</h5>
+            <p class="card-text mt-3">At Antique Story, our selections are a labor of love, carefully chosen for their profound significance. From rare folk art to intricately carved wooden panels, each object holds deep inspiration, meaning, and joy. Beyond mere decoration, these pieces are life lessons embodied in art. At Antique Story, we redefine art as a reflection of life's essence.</p>
+            
+          </div>
+        </div>
+        <div class="col-md-6">
+          <img src="img_5.webp" class="img-fluid rounded-start" alt="img 5">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+<footer class="text-center text-lg-start bg-body-tertiary text-muted">
+  <!-- Section: Social media -->
+  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+    <!-- Left -->
+    <div class="me-5 d-none d-lg-block">
+      <span>Get connected with us on social networks:</span>
+    </div>
+    <!-- Left -->
+
+    <!-- Right -->
+    <div>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-google"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3"></i>Company name
+          </h6>
+          <p>
+            Here you can use rows and columns to organize your footer content. Lorem ipsum
+            dolor sit amet, consectetur adipisicing elit.
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Products
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Angular</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">React</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Vue</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Laravel</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Useful links
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Pricing</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Settings</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Orders</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Help</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+          <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            info@example.com
+          </p>
+          <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+          <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2024 Copyright
+  </div>
+  <!-- Copyright -->
+</footer>
+
+
+
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
     crossorigin="anonymous"></script>
+
 </body>
 
 </html>
